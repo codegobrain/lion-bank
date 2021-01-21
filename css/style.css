@@ -1,0 +1,249 @@
+.main-page {
+  background-color: #29282D;
+  font-family: 'Open Sans';
+}
+
+.logo-header {
+  position: absolute;
+  width: 165px;
+  height: 30px;
+  margin-top: 33px;
+  margin-left: 390px;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.navi-text-main {
+  font-size: 400;
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+  position: absolute;
+  text-decoration: none;
+  width: 56px;
+  height: 19px;
+  left: 646px;
+  top: 42px;
+}
+
+.navi-text-services {
+  font-weight: 400;
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+  position: absolute;
+  text-decoration: none;
+  width: 46px;
+  height: 19px;
+  left: 756px;
+  top: 42px;
+}
+
+.navi-text-feedback {
+  font-weight: 400;
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+  position: absolute;
+  text-decoration: none;
+  width: 54px;
+  height: 19px;
+  left: 856px;
+  top: 42px;
+}
+
+.telephone {
+  font-size: 26px;
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+  position: absolute;
+  text-decoration: none;
+  top: 26px;
+  left: 1340px;
+  height: 35px;
+  width: 191px;
+}
+
+.shedule {
+  position: absolute;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  color: #D3A557;
+  width: 97px;
+  height: 20px;
+  left: 1432px;
+  top: 55px;
+}
+
+.shedule-bkgr {
+  position: absolute;
+  width: 157px;
+  height: 77px;
+  left: 1372px;
+  top: 72px;
+}
+
+.work-time {
+  position: absolute;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 21px;
+  width: 122px;
+  height: 21px;
+  left: 1389px;
+  top: 92px;
+  color: #1E1F20
+}
+
+.cofee-break {
+  position: absolute;
+  width: 120px;
+  height: 21px;
+  left: 1389px;
+  top: 114px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.motto {
+  position: absolute;
+  width: 505px;
+  height: 193px;
+  left: 390px;
+  top: 255px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 110%;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.cathcword {
+  position: absolute;
+  width: 250px;
+  height: 20px;
+  left: 390px;
+  top: 485px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #D3A557;
+}
+
+.more-info-button {
+  position: absolute;
+  width: 88px;
+  height: 19px;
+  left: 429px;
+  top: 554px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.details-button {
+  position: absolute;
+  width: 165px;
+  height: 52px;
+  left: 390px;
+  top: 537px;
+  background: #DFB56D;
+  box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
+  border-radius: 3px;
+}
+
+.best-offer {
+  position: absolute;
+  width: 545px;
+  height: 49px;
+  left: 392px;
+  top: 775px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.card-1-bkgr {
+  position: absolute;
+  width: 362px;
+  height: 144px;
+  left: 389px;
+  top: 875px;
+}
+
+.mini-card-1 {
+  position: absolute;
+  width: 88px;
+  height: 64px;
+  left: 526px;
+  top: 915px;
+}
+
+.card-2-bkgr {
+  position: absolute;
+  width: 362px;
+  height: 144px;
+  left: 778px;
+  top: 875px;
+}
+
+.mini-card-2 {
+  position: absolute;
+  width: 88px;
+  height: 64px;
+  left: 915px;
+  top: 915px;
+}
+
+.card-3-bkgr {
+  position: absolute;
+  width: 362px;
+  height: 144px;
+  left: 1167px;
+  top: 875px;
+}
+
+.mini-card-3 {
+  position: absolute;
+  width: 88px;
+  height: 64px;
+  left: 1304px;
+  top: 915px;
+}
+
+.card-base {
+  position: absolute;
+  width: 212px;
+  height: 33px;
+  left: 411px;
+  top: 1052px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
