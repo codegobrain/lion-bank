@@ -23,109 +23,125 @@
       <!--Bank logo with reference to the main page-->
 
       <a href="#" class="logotype">
-        <img src="#" alt="logotype_image">
+        <img src="#" alt="logotype_image" class="logotype__image">
       </a>
 
       <!--Navigation between pages on this site // may be used in footer navigation-->
       <nav class="navigaion">
 
         <ul class="navigation__list">
-          <li class="list__item">
-            <a href="">Главная</a>
+          <li class="navigation__item">
+            <a href="" class="navigation__item-link">Главная</a>
           </li>
-          <li class="list__item">
-            <a href="">Услуги</a>
+          <li class="navigation__item">
+            <a href="" class="navigation__item-link">Услуги</a>
           </li>
-          <li class="list__item">
-            <a href="">Отзывы</a>
+          <li class="navigation__item">
+            <a href="" class="navigation__item-link">Отзывы</a>
           </li>
         </ul>
 
       </nav>
 
       <!--Contacts container contain telephone-->
-      <div class="conatct">
 
-        <address class="conatct__telephone">
-          <a href="tel:+788007003030" class="contact__telephone">8 800 700 30 30</a>
-        </address>
-
-        <div class="shedule">
-          <p>График работы</p>
-          <ul class="shedule__list">
-            <li class="shedule__time">пн-вс: 09:00 - 20:00</li>
-            <li class="shedule__time">Обед: 14:00-14:30</li>
-          </ul>
-        </div>
-
-      </div>
+      <address class="conatct__telephone">
+        <a href="tel:+788007003030" class="contact__telephone">8 800 700 30 30</a>
+      </address>
+      <div class="shedule">График работы</div>
+      <ul class="shedule__list">
+        <li class="shedule__item">пн-вс: 09:00 - 20:00</li>
+        <li class="shedule__item">Обед: 14:00-14:30</li>
+      </ul>
 
     </header>
 
     <!--Main motto container in top on the lion background with reference button-->
     <section class="message">
 
-      <h1 class="message__motto">Не отказывай себе в желании быть первым</h1>
+      <h1 class="message__title">Не отказывай себе в желании быть первым</h1>
       <div class="message__text">Банк с львиным характером</div>
-      <div class="message__button details__button"><a href="">Подробнее</a></div>
+      <div class="message__button"><a href="">Подробнее</a></div>
 
     </section>
 
     <!--Best offers container with cards and their descriptions  // cards contain details button to reference-->
     <section class="offers">
 
-      <h2 class="section__title-text">Лучшие предложения банка</h2>
+      <h2 class="offers__title title">Лучшие предложения банка</h2>
+      <ul class="offers__list">
+        <li class="offers__item">
+          <div class="offers__item-circle">
+            <img src="#" alt="Card background" class="offers__item-pic">
+          </div>
+          <img src="#" alt="Card" class="offers__item-img"></img>
+          <div class="offers__item-title">Карта «Базовая»</div>
+          <ul class="offers__details">
+            <li class="offers__detail">
+              <div class="offers__detail-option">60 Р.-</div>
+              <div class="offers__detail-text">Обслуживание карты</div>
+            </li>
+            <li class="offers__detail">
+              <div class="offers__detail-option">до 4 %</div>
+              <div class="offers__detail-text">Кэшбек за любимые покупки</div>
+            </li>
+          </ul>
+          <div class="offers__button">
+            <a href="#" class="offers__button-link common-button">Подробнее</a>
+          </div>
+        </li>
 
-      <div class="offers__item">
-        <div class="cards__title">
-          Карта «Базовая»
-        </div>
-        <ul class="cards__details">
-          <li class="cards__stakes">60 Р.-</li>
-          <li class="stakes__text">Обсуживание карты</li>
-          <li class="cards__stakes">до 4 %</li>
-          <li class="stakes__text">Кэшбек за любимые покупки</li>
-        </ul>
-        <div class="details__button">
-          <a href="">Подробнее</a>
-        </div>
+        <li class="offers__item">
+          <div class="offers__item-circle">
+            <img src="#" alt="Card background" class="offers__item-pic">
+          </div>
+          <img src="#" alt="Card" class="offers__item-img"></img>
+          <div class="offers__item-title">Карта «Оптима»</div>
+          <ul class="offers__details">
+            <li class="offers__detail">
+              <div class="offers__detail-option">90 Р.-</div>
+              <div class="offers__detail-text">Обслуживание карты</div>
+            </li>
+            <li class="offers__detail">
+              <div class="offers__detail-option">до 5 %</div>
+              <div class="offers__detail-text">Кэшбек за любимые покупки</div>
+            </li>
+          </ul>
+          <div class="offers__button">
+            <a href="#" class="offers__button-link common-button">Подробнее</a>
+          </div>
+        </li>
 
-        <div class="cards__title">
-          Карта «Базовая»
-        </div>
-        <ul class="cards__details">
-          <li class="cards__stakes">60 Р.-</li>
-          <li class="stakes__text">Обсуживание карты</li>
-          <li class="cards__stakes">до 4 %</li>
-          <li class="stakes__text">Кэшбек за любимые покупки</li>
-        </ul>
-        <div class="details__button">
-          <a href="">Подробнее</a>
-        </div>
+        <li class="offers__item">
+          <div class="offers__item-circle">
+            <img src="#" alt="Card background" class="offers__item-pic">
+          </div>
+          <img src="#" alt="Card" class="offers__item-img"></img>
+          <div class="offers__item-title">Карта «Платинум»</div>
+          <ul class="offers__details">
+            <li class="offers__detail">
+              <div class="offers__detail-option">490 Р.-</div>
+              <div class="offers__detail-text">Обслуживание карты</div>
+            </li>
+            <li class="offers__detail">
+              <div class="offers__detail-option">до 6 %</div>
+              <div class="offers__detail-text">Кэшбек за любимые покупки</div>
+            </li>
+          </ul>
+          <div class="offers__button">
+            <a href="#" class="offers__button-link common-button">Подробнее</a>
+          </div>
+        </li>
 
-        <div class="cards__title">
-          Карта «Базовая»
-        </div>
-        <ul class="cards__details">
-          <li class="cards__stakes">60 Р.-</li>
-          <li class="stakes__text">Обсуживание карты</li>
-          <li class="cards__stakes">до 4 %</li>
-          <li class="stakes__text">Кэшбек за любимые покупки</li>
-        </ul>
-        <div class="details__button">
-          <a href="">Подробнее</a>
-        </div>
+      </ul>
 
-      </div>
     </section>
 
     <!--News and promotions container with paginator-->
     <!--News and opinion-->
     <section class="news">
 
-      <div class="news__title">
-        <h2 class="title__text">Новости и акции</h2>
-      </div>
+      <h2 class="news__title title">Новости и акции</h2>
 
       <div class="news__block">
         <p class="news__text">Декабрь 2019</p>
@@ -136,42 +152,42 @@
       <div class="news__block">
         <p class="news__text">Декабрь 2019</p>
         <p class="news__text-bold"><b>Копите на поездку? Откройте счёт!</b></p>
-        <p class="news__text-">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в
+        <p class="news__text">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в
           мире!</p>
       </div>
 
       <!--Paginator-->
       <div class="paginator">
 
-        <div class="list__text">Страница 1 из 7</div>
+        <div class="paginator__counter">Страница 1 из 7</div>
 
         <ul class="paginator__list">
-          <li class="list__item">
-            <a href="">1</a>
+          <li class="paginator__item">
+            <a href="#" class="paginator__number">1</a>
           </li>
 
-          <li class="list__item">
-            <a href="">2</a>
+          <li class="paginator__item">
+            <a href="#" class="paginator__number">2</a>
           </li>
 
-          <li class="list__item">
-            <a href="">3</a>
+          <li class="paginator__item">
+            <a href="#" class="paginator__number">3</a>
           </li>
 
-          <li class="list__item">
-            <a href="">4</a>
+          <li class="paginator__item">
+            <a href="#" class="paginator__number">4</a>
           </li>
 
-          <li class="list__item">
-            <a href="">5</a>
+          <li class="paginator__item">
+            <a href="#" class="paginator__number">5</a>
           </li>
 
-          <li class="list__item">
-            <a href="">6</a>
+          <li class="paginator__item">
+            <a href="#" class="paginator__number">6</a>
           </li>
 
-          <li class="list__item">
-            <a href="">7</a>
+          <li class="paginator__item">
+            <a href="#" class="paginator__number">7</a>
           </li>
 
         </ul>
@@ -184,79 +200,92 @@
     <section class="about">
 
       <div class="about__image">
+        <img src="#" alt="Chess" class="about__picture">
       </div>
 
       <div class="about__description">
-        <h2 class="title__text">О банке</h2>
-        <div class="news__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+        <h2 class="about__title title">О банке</h2>
+        <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
           абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
           отточить навык публичных выступлений в домашних условиях.
-        </div>
-        <div class="details__button">
-          <a href="">Подробнее</a>
+        </p>
+        <div class="about__button">
+          <a href="#" class="about__button-link common-button">Подробнее</a>
         </div>
       </div>
 
     </section>
 
+
+
+    <!--Down navigation block-->
+    <footer class="footer">
+
+      <!--Bank logo with reference to the main page-->
+      <a href="#" class="logotype">
+        <img src="#" alt="logotype_image" class="logotype__image">
+      </a>
+
+      <!--Navigation between pages on this site // may be used in footer navigation-->
+      <nav class="navigaion">
+
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="" class="navigation__item-link">Главная</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__item-link">Услуги</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__item-link">Отзывы</a>
+          </li>
+        </ul>
+
+      </nav>
+
+
+      <!-- Social services links -->
+      <div class="social">
+
+        <ul class="social__list">
+
+          <li class="social_item">
+            <a href="" class="social_link">
+              <img src="#" alt="Telegram" class="social__item-icon telegram-icon">
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a href="" class="social_link">
+              <img src="#" alt="vk" class="social__item-icon vk-icon">
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a href="" class="social_link">
+              <img src="#" alt="Facebook" class="social__item-icon fb-icon">
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a href="#" class="social_link">
+              <img src="#" alt="Instagram" class="social__item-icon insta-icon">
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <!-- Footer addres -->
+      <address class="conatct__telephone">
+        <div class="conatct__info">Бесплатный звонок по России</div>
+        <a href="tel:+788007003030" class="contact__telephone">8 800 700 30 30</a>
+      </address>
+
+    </footer>
+
   </div>
-
-  <!--Down navigation block-->
-  <footer class="footer">
-
-    <!--Bank logo with reference to the main page-->
-    <a href="">logo
-    </a>
-
-    <!--Navigation between pages on this site // may be used in footer navigation-->
-    <nav class="navigaion">
-
-      <ul class="navigation__list">
-        <li class="list__item">
-          <a href="">Главная</a>
-        </li>
-        <li class="list__item">
-          <a href="">Услуги</a>
-        </li>
-        <li class="list__item">
-          <a href="">Отзывы</a>
-        </li>
-      </ul>
-
-    </nav>
-
-
-    <!-- Social services links -->
-    <div class="social">
-
-      <ul class="social__list">
-
-        <li class="social_item">
-          <a href="">telegram-icon</a>
-        </li>
-
-        <li class="social_item">
-          <a href="">vk-icon</a>
-        </li>
-
-        <li class="social_item">
-          <a href="">facebook-icon</a>
-        </li>
-
-        <li class="social_item">
-          <a href="">instagram-icon</a>
-        </li>
-
-      </ul>
-
-    </div>
-
-    <!-- Footer addres -->
-    <address class="contact">Бесплатный звонок по России
-      <a href="tel:+788007003030" class="contact__telephone">8 800 700 30 30</a>
-    </address>
-
-  </footer>
 
 </body>
 
