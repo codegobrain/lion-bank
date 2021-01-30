@@ -353,6 +353,13 @@ p {
   font-weight: 700;
 }
 
+.paginator__item:hover {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .paginator__item--active .paginator__link {
   background: #353439;
   margin: 0;
