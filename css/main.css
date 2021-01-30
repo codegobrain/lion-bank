@@ -49,7 +49,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url(/img/lion_header.png) center top no-repeat ,url(/img/lion_bottom.png) right 3px bottom 280px no-repeat;
+  background: url(../img/lion_header.png) center top no-repeat ,url(../img/lion_bottom.png) right 3px bottom 280px no-repeat;
 }
 
 .container {
@@ -377,7 +377,7 @@ p {
   content: "";
   width: 490px;
   height: 505px;
-  background: url(/img/chess.png) center center / cover no-repeat;
+  background: url(../img/chess.png) center center / cover no-repeat;
 }
 
 .about__descr {
@@ -447,33 +447,33 @@ p {
 }
 
 .social__item--icon--teleg .social__link {
-  background-image: url(/img/icons/telegram_logo.png);
+  background-image: url(../img/icons/telegram_logo.png);
 }
 
 .social__item--icon--teleg .social__link:hover {
-  background-image: url(/img/icons/telegram_logo_hover.png);
+  background-image: url(../img/icons/telegram_logo_hover.png);
 }
 
 .social__item--icon--vk .social__link {
-  background-image: url(/img/icons/vk_logo.png);
+  background-image: url(../img/icons/vk_logo.png);
 }
 
 .social__item--icon--vk .social__link:hover {
-  background-image: url(/img/icons/vk_logo_hover.png);
+  background-image: url(../img/icons/vk_logo_hover.png);
 }
 
 .social__item--icon--fb .social__link {
-  background-image: url(/img/icons/fb_logo.png);
+  background-image: url(../img/icons/fb_logo.png);
 }
 
 .social__item--icon--fb .social__link:hover {
-  background-image: url(/img/icons/fb_logo_hover.png);
+  background-image: url(../img/icons/fb_logo_hover.png);
 }
 
 .social__item--icon--insta .social__link {
-  background-image: url(/img/icons/insta_logo.png);
+  background-image: url(../img/icons/insta_logo.png);
 }
 
 .social__item--icon--insta .social__link:hover {
-  background-image: url(/img/icons/insta_logo_hover.png);
+  background-image: url(../img/icons/insta_logo_hover.png);
 }
