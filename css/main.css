@@ -48,7 +48,7 @@ p {
   box-sizing: border-box;
 }
 
-.wrapper {
+.main-page-wrapper {
   background: url(../img/lion_header.png) center top no-repeat ,url(../img/lion_bottom.png) right 3px bottom 280px no-repeat;
 }
 
@@ -180,11 +180,7 @@ p {
 }
 
 .section {
-  margin-bottom: 135px;
-}
-
-.section:nth-child(4) {
-  margin-bottom: 60px;
+  margin-bottom: 110px;
 }
 
 .section__title {
@@ -314,7 +310,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 11px 30px;
+  padding: 20px 30px;
   min-height: 160px;
 }
 
@@ -370,25 +366,25 @@ p {
   line-height: 32px;
 }
 
+
 .about::before,
 .about__descr {
   display: inline-block;
-  vertical-align: top;
 }
 
 .about::before {
   content: "";
   width: 490px;
-  height: 505px;
+  height: 500px;
   background: url(../img/chess.png) center center / cover no-repeat;
 }
 
 .about__descr {
   background: #202123;
   padding: 70px 81px;
+  height: 455px;
   width: 785px;
   margin-left: -145px;
-  margin-top: 97px;
   border-radius: 5px;
 }
 
@@ -418,8 +414,8 @@ p {
 
 .footer {
   position: relative;
-  height: 152px;
-  margin-top: 25px;
+  height: 150px;
+  margin-top: -30px;
 }
 
 .contacts__decr {
