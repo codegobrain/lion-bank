@@ -49,7 +49,7 @@ p {
 }
 
 .wrapper {
-  background: top no-repeat url(../img/lion_header.png)
+  background: no-repeat url(../img/lion_header.png)
   ,right 3px bottom 280px no-repeat url(../img/lion_bottom.png);
 }
 
