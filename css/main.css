@@ -48,8 +48,8 @@ p {
   box-sizing: border-box;
 }
 
-.main-page-wrapper {
-  background: center top/contain no-repeat url(../img/lion_header.png)
+.wrapper.main-page-wrapper {
+  background: left top no-repeat url(../img/lion_header.png)
   ,right 3px bottom 280px no-repeat url(../img/lion_bottom.png);
 }
 
