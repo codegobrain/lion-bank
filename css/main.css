@@ -1,9 +1,9 @@
-/** {
+* {
   margin: 0;
   padding: 0;
 }
 
-*/
+
 body {
   background: #29282D;
   font-family: 'Open Sans', sans-serif;
@@ -21,10 +21,10 @@ a {
   font-style: normal;
 }
 
-ul {
+/*ul {
   margin: 0;
   padding: 0;
-}
+}*/
 
 ul li {
   list-style: none;
@@ -49,7 +49,7 @@ p {
 }
 
 .wrapper {
-  background: no-repeat url(../img/lion_header.png)
+  background: center top no-repeat url(../img/lion_header.png)
   ,right 3px bottom 280px no-repeat url(../img/lion_bottom.png);
 }
 
