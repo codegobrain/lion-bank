@@ -49,8 +49,8 @@ p {
 }
 
 .wrapper {
-  background: center top no-repeat url(../img/lion_header.png)
-  ,right 3px bottom 280px no-repeat url(../img/lion_bottom.png);
+  min-width: 1140px;
+  background: center top no-repeat url(../img/lion_header.png), right 3px bottom 280px no-repeat url(../img/lion_bottom.png);
 }
 
 .container {
