@@ -195,7 +195,7 @@ p {
   margin-bottom: 51px;
 }
 
-.offers__item {
+.offers__item.card {
   display: inline-block;
   min-height: 450px;
   background: #fff;
@@ -206,16 +206,16 @@ p {
   overflow: hidden;
 }
 
-.offers__item:last-child {
+.offers__item.card:last-child {
   margin-right: 0;
 }
 
-.offers__header {
+.card__header {
   min-height: 145px;
   position: relative;
 }
 
-.offers__header:before {
+.card__header:before {
   content: "";
   width: 265px;
   height: 265px;
@@ -227,19 +227,19 @@ p {
   background: #ccc;
 }
 
-.offers__item--theme--grey .offers__header:before {
+.card_theme-grey .card__header:before {
   background: #a5a5a4;
 }
 
-.offers__item--theme--blue .offers__header:before {
+.card_theme-blue .card__header:before {
   background: #556180;
 }
 
-.offers__item--theme--gold .offers__header:before {
+.card_theme-gold .card__header:before {
   background: #978455;
 }
 
-.offers__header-img {
+.card__header-img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -248,39 +248,39 @@ p {
   margin-top: -32px;*/
 }
 
-.offers__content {
+.card__content {
   padding: 30px 20px;
 }
 
-.offers__title {
+.card__title {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
-.offers__prices-cell {
+.card__prices-cell {
   display: inline-block;
   width: 155px;
   margin-right: 1px;
 }
 
-.offers__prices-cell:last-child {
+.card__prices-cell:last-child {
   margin-right: 0;
 }
 
-.offers__price {
+.card__price {
   font-size: 36px;
 }
 
-.offers__price-descr {
+.card__price-descr {
   color: #666;
 }
 
-.offers__prices {
+.card__prices {
   margin-bottom: 50px;
 }
 
-.offers__btn-wrap {
+.card__btn-wrap {
   text-align: center;
 }
 
