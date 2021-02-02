@@ -3,10 +3,45 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/opensans/opensans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans/opensans-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/opensans/opensans-italic-webfont.woff2') format('woff2'),
+    url('../fonts/opensans/opensans-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/opensans/opensans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/opensans/opensans-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/opensans/opensans-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans/opensans-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
   background: #29282D;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'opensans', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.42;
@@ -50,7 +85,7 @@ p {
 
 .wrapper {
   min-width: 1140px;
-  background: center top no-repeat url(../img/lion_header.png), right 3px bottom 280px no-repeat url(../img/lion_bottom.png);
+  background: center top no-repeat url(../img/backgrounds/lion_header.png), right 3px bottom 280px no-repeat url(../img/backgrounds/lion_bottom.png);
 }
 
 .container {
@@ -382,7 +417,7 @@ p {
   content: "";
   width: 490px;
   height: 500px;
-  background: url(../img/chess.png) center center / cover no-repeat;
+  background: url(../img/about/chess.png) center center / cover no-repeat;
 }
 
 .about__descr {
